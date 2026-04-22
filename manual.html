@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<title>PAE-DF · Manual Pedagógico · Educação Infantil · 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" id="theme-link" href="theme-pequi.css" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..900,0..100&family=Instrument+Serif:ital@0;1&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- TWEAKS PANEL -->
+<div id="tweaks-panel" hidden>
+  <div class="tp-head">
+    <strong>Tweaks</strong>
+    <span>Variações de tema</span>
+  </div>
+  <div class="tp-body">
+    <label class="tp-row">
+      <span>Tema</span>
+      <select id="tp-theme">
+        <option value="pequi">Pequi — editorial clássico</option>
+        <option value="buriti">Buriti — quente e afetivo</option>
+        <option value="cerrado">Cerrado — moderno e claro</option>
+      </select>
+    </label>
+    <label class="tp-row">
+      <span>Tipografia títulos</span>
+      <select id="tp-display">
+        <option value="fraunces">Fraunces</option>
+        <option value="instrument">Instrument Serif</option>
+        <option value="dm-serif">DM Serif Display</option>
+        <option value="source-serif">Source Serif 4</option>
+      </select>
+    </label>
+    <label class="tp-row tp-toggle">
+      <span>Ornamentos ilustrativos</span>
+      <input type="checkbox" id="tp-orn" checked>
+    </label>
+    <label class="tp-row tp-toggle">
+      <span>Modo impressão (A4)</span>
+      <input type="checkbox" id="tp-print">
+    </label>
+    <button id="tp-print-now" class="tp-print">Abrir impressão / PDF</button>
+  </div>
+</div>
+
+<!-- HERO COVER -->
+<article class="cover page page--cover">
+  <div class="cover-frame">
+    <div class="cover-top">
+      <div class="cover-eyebrow">Secretaria de Estado de Educação do Distrito Federal · Edição 2026</div>
+      <div class="cover-code">PAE-DF</div>
+    </div>
+
+    <div class="cover-illo" aria-hidden="true">
+      <svg viewBox="0 0 800 520" preserveAspectRatio="xMidYMid meet">
+        <defs>
+          <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0" stop-color="var(--paper)"/>
+            <stop offset="1" stop-color="var(--paper-warm)"/>
+          </linearGradient>
+        </defs>
+        <rect width="800" height="520" fill="url(#sky)"/>
+        <!-- sun -->
+        <circle cx="610" cy="160" r="64" fill="var(--accent-soft)"/>
+        <!-- cerrado horizon -->
+        <path d="M0 360 C 120 330 220 340 340 350 C 460 360 560 335 680 345 C 740 350 780 355 800 350 L 800 520 L 0 520 Z" fill="var(--earth)"/>
+        <path d="M0 390 C 140 370 260 390 400 385 C 540 380 640 395 800 385 L 800 520 L 0 520 Z" fill="var(--earth-deep)"/>
+        <!-- buriti palm -->
+        <g transform="translate(130 380)">
+          <rect x="-4" y="-180" width="8" height="180" fill="var(--bark)"/>
+          <g stroke="var(--leaf)" stroke-width="6" stroke-linecap="round" fill="none">
+            <path d="M0 -180 Q -50 -220 -90 -210"/>
+            <path d="M0 -180 Q 50 -220 90 -210"/>
+            <path d="M0 -180 Q -30 -240 -60 -250"/>
+            <path d="M0 -180 Q 30 -240 60 -250"/>
+            <path d="M0 -180 Q 0 -240 -10 -260"/>
+          </g>
+          <circle cx="-20" cy="-170" r="7" fill="var(--accent)"/>
+          <circle cx="18" cy="-165" r="7" fill="var(--accent)"/>
+          <circle cx="0" cy="-155" r="7" fill="var(--accent)"/>
+        </g>
+        <!-- pequizeiro -->
+        <g transform="translate(560 355)">
+          <rect x="-5" y="-110" width="10" height="110" fill="var(--bark)"/>
+          <circle cx="0" cy="-130" r="45" fill="var(--leaf)"/>
+          <circle cx="-28" cy="-115" r="28" fill="var(--leaf-deep)"/>
+          <circle cx="28" cy="-115" r="28" fill="var(--leaf-deep)"/>
+          <circle cx="-14" cy="-100" r="6" fill="var(--accent-warm)"/>
+          <circle cx="10" cy="-145" r="6" fill="var(--accent-warm)"/>
+        </g>
+        <!-- child silhouette -->
+        <g transform="translate(360 320)" fill="var(--ink)">
+          <circle cx="0" cy="-28" r="14"/>
+          <path d="M-14 -14 Q 0 -6 14 -14 L 16 24 Q 0 28 -16 24 Z"/>
+          <rect x="-14" y="24" width="10" height="28" rx="3"/>
+          <rect x="4" y="24" width="10" height="28" rx="3"/>
+          <!-- bowl -->
+          <path d="M-20 -6 a 20 10 0 0 0 40 0 Z" fill="var(--accent)"/>
+          <circle cx="-10" cy="-12" r="3" fill="var(--accent-warm)"/>
+          <circle cx="6" cy="-12" r="3" fill="var(--leaf)"/>
+        </g>
+        <!-- plant rows -->
+        <g fill="var(--leaf)">
+          <circle cx="240" cy="400" r="7"/><circle cx="260" cy="395" r="5"/>
+          <circle cx="430" cy="410" r="7"/><circle cx="455" cy="405" r="5"/>
+          <circle cx="680" cy="420" r="7"/><circle cx="705" cy="415" r="5"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="cover-title">
+      <h1>Manual Pedagógico<br><em>do</em> PAE-DF</h1>
+      <p class="cover-sub">Contextualização do Currículo com a Matriz de Referência do PNAE —
+      foco na Educação Infantil de 0 a 5 anos, na rede pública do Distrito Federal.</p>
+    </div>
+
+    <div class="cover-foot">
+      <div class="cover-badges">
+        <span class="badge">BNCC</span>
+        <span class="badge">Lei 11.947/09</span>
+        <span class="badge">Res. FNDE 4/2026</span>
+        <span class="badge">DCNEI/2009</span>
+      </div>
+      <div class="cover-line">
+        Alimentação é currículo — cada refeição é uma oportunidade de aprender.
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- Remaining content injected by ./sections/*.html loaded via <include> pattern -->
+<main id="book"></main>
+
+<script>
+  // inline split content files (fetch) — gives us clean code without one giant file
+  const sections = [
+    'sections/00-opening.html',
+    'sections/01-marco-legal.html',
+    'sections/02-bncc.html',
+    'sections/03-ean.html',
+    'sections/04-matriz.html',
+    'sections/05-praticas.html',
+    'sections/06-nutricionista.html',
+    'sections/07-familia.html',
+    'sections/08-cardapios.html',
+    'sections/09-atividades.html',
+    'sections/10-avaliacao.html',
+    'sections/99-fim.html'
+  ];
+  (async () => {
+    const book = document.getElementById('book');
+    for (const s of sections) {
+      try {
+        const r = await fetch(s);
+        if (r.ok) book.insertAdjacentHTML('beforeend', await r.text());
+      } catch(e) { console.warn('skip', s, e); }
+    }
+    window.dispatchEvent(new Event('book:ready'));
+  })();
+</script>
+
+<script src="tweaks.js"></script>
+</body>
+</html>

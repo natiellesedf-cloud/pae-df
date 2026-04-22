@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="bg-pre" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#87CEEB" stop-opacity="0.3"/>
+      <stop offset="0.5" stop-color="#eef7f0"/>
+      <stop offset="1" stop-color="#d5eadb"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg-pre)"/>
+  <!-- sun -->
+  <circle cx="700" cy="60" r="40" fill="#E8C94A" opacity="0.4"/>
+  <!-- raised garden beds -->
+  <rect x="60" y="320" width="200" height="60" rx="4" fill="#a07040"/>
+  <rect x="60" y="310" width="200" height="15" rx="3" fill="#8B5E3C"/>
+  <rect x="300" y="320" width="200" height="60" rx="4" fill="#a07040"/>
+  <rect x="300" y="310" width="200" height="15" rx="3" fill="#8B5E3C"/>
+  <rect x="540" y="320" width="200" height="60" rx="4" fill="#a07040"/>
+  <rect x="540" y="310" width="200" height="15" rx="3" fill="#8B5E3C"/>
+  <!-- lettuce plants -->
+  <g transform="translate(100 310)">
+    <circle cx="0" cy="-15" r="18" fill="#7CB98A"/>
+    <circle cx="-12" cy="-8" r="14" fill="#5a9a4a"/>
+    <circle cx="12" cy="-8" r="14" fill="#5a9a4a"/>
+    <circle cx="0" cy="-5" r="10" fill="#b8d4a0"/>
+  </g>
+  <g transform="translate(160" cy="310)">
+    <circle cx="0" cy="-12" r="15" fill="#7CB98A"/>
+    <circle cx="-10" cy="-5" r="12" fill="#5a9a4a"/>
+    <circle cx="10" cy="-5" r="12" fill="#5a9a4a"/>
+  </g>
+  <g transform="translate(220 310)">
+    <circle cx="0" cy="-14" r="16" fill="#7CB98A"/>
+    <circle cx="-11" cy="-6" r="13" fill="#5a9a4a"/>
+    <circle cx="11" cy="-6" r="13" fill="#5a9a4a"/>
+  </g>
+  <!-- tomato plants -->
+  <g transform="translate(350 310)">
+    <line x1="0" y1="0" x2="0" y2="-60" stroke="#4A7C59" stroke-width="2"/>
+    <circle cx="-8" cy="-50" r="8" fill="#e44"/>
+    <circle cx="8" cy="-45" r="7" fill="#e44"/>
+    <circle cx="0" cy="-35" r="6" fill="#f44" opacity="0.7"/>
+    <ellipse cx="-12" cy="-40" rx="8" ry="5" fill="#4A7C59"/>
+    <ellipse cx="12" cy="-50" rx="8" ry="5" fill="#4A7C59"/>
+  </g>
+  <g transform="translate(420 310)">
+    <line x1="0" y1="0" x2="0" y2="-55" stroke="#4A7C59" stroke-width="2"/>
+    <circle cx="-6" cy="-45" r="7" fill="#e44"/>
+    <circle cx="8" cy="-40" r="6" fill="#f44" opacity="0.8"/>
+    <ellipse cx="-10" cy="-36" rx="7" ry="4" fill="#4A7C59"/>
+    <ellipse cx="10" cy="-45" rx="7" ry="4" fill="#4A7C59"/>
+  </g>
+  <!-- carrot tops -->
+  <g transform="translate(600 310)">
+    <g stroke="#4A7C59" stroke-width="2" fill="none">
+      <path d="M0 0 Q-5 -25 -10 -35"/>
+      <path d="M0 0 Q0 -28 0 -40"/>
+      <path d="M0 0 Q5 -25 10 -35"/>
+    </g>
+    <path d="M-4 5 L0 40 L4 5Z" fill="#f4903a" opacity="0.3"/>
+  </g>
+  <g transform="translate(650 310)">
+    <g stroke="#4A7C59" stroke-width="2" fill="none">
+      <path d="M0 0 Q-4 -20 -8 -30"/>
+      <path d="M0 0 Q0 -25 0 -35"/>
+      <path d="M0 0 Q4 -20 8 -30"/>
+    </g>
+  </g>
+  <g transform="translate(700 310)">
+    <g stroke="#4A7C59" stroke-width="2" fill="none">
+      <path d="M0 0 Q-5 -22 -9 -32"/>
+      <path d="M0 0 Q0 -26 0 -38"/>
+      <path d="M0 0 Q5 -22 9 -32"/>
+    </g>
+  </g>
+  <!-- child with basket -->
+  <g transform="translate(460 310)">
+    <circle cx="0" cy="-65" r="14" fill="#8B5E3C"/>
+    <rect x="-12" y="-51" width="24" height="30" rx="3" fill="#E8C94A"/>
+    <rect x="-10" y="-21" width="8" height="22" rx="3" fill="#3d2415"/>
+    <rect x="2" y="-21" width="8" height="22" rx="3" fill="#3d2415"/>
+    <!-- basket -->
+    <path d="M20 -35 Q25 -50 40 -45 Q55 -40 50 -30 L45 -25 L25 -25Z" fill="#D4A54A"/>
+    <circle cx="35" cy="-38" r="5" fill="#7CB98A"/>
+    <circle cx="42" cy="-35" r="4" fill="#e44"/>
+  </g>
+  <!-- butterflies -->
+  <g transform="translate(250 200)" fill="#E87461" opacity="0.5">
+    <ellipse cx="-6" cy="0" rx="6" ry="9" transform="rotate(-15)"/>
+    <ellipse cx="6" cy="0" rx="6" ry="9" transform="rotate(15)"/>
+    <rect x="-1" y="-3" width="2" height="10" rx="1" fill="#5a2f1c"/>
+  </g>
+  <!-- bee -->
+  <g transform="translate(500 200)">
+    <ellipse cx="0" cy="0" rx="8" ry="6" fill="#E8C94A"/>
+    <line x1="-3" y1="-6" x2="-3" y2="6" stroke="#2F3D1E" stroke-width="1.5"/>
+    <line x1="3" y1="-6" x2="3" y2="6" stroke="#2F3D1E" stroke-width="1.5"/>
+    <ellipse cx="-6" cy="-5" rx="5" ry="8" fill="white" opacity="0.5" transform="rotate(-20)"/>
+    <ellipse cx="6" cy="-5" rx="5" ry="8" fill="white" opacity="0.5" transform="rotate(20)"/>
+  </g>
+</svg>

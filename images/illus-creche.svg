@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="bg-cre" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fdf6e8"/>
+      <stop offset="1" stop-color="#eef7f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg-cre)"/>
+  <!-- window with sunlight -->
+  <rect x="500" y="40" width="200" height="180" rx="8" fill="#87CEEB" opacity="0.3"/>
+  <rect x="500" y="40" width="200" height="180" rx="8" fill="none" stroke="#D4A54A" stroke-width="3"/>
+  <line x1="600" y1="40" x2="600" y2="220" stroke="#D4A54A" stroke-width="2"/>
+  <line x1="500" y1="130" x2="700" y2="130" stroke="#D4A54A" stroke-width="2"/>
+  <!-- sunlight rays -->
+  <g opacity="0.1" fill="#E8C94A">
+    <path d="M500 40 L300 300 L350 300Z"/>
+    <path d="M600 40 L400 300 L450 300Z"/>
+    <path d="M700 40 L500 300 L550 300Z"/>
+  </g>
+  <!-- wooden table -->
+  <rect x="80" y="280" width="600" height="20" rx="4" fill="#c8905d"/>
+  <rect x="100" y="300" width="15" height="80" fill="#a07040"/>
+  <rect x="645" y="300" width="15" height="80" fill="#a07040"/>
+  <!-- cups with bean sprouts -->
+  <g>
+    <!-- cup 1 - early stage -->
+    <rect x="140" y="240" width="50" height="40" rx="4" fill="#f5f0e6" stroke="#D4A54A" stroke-width="1.5"/>
+    <rect x="140" y="260" width="50" height="20" rx="0" fill="#8B5E3C" opacity="0.4"/>
+    <line x1="165" y1="240" x2="165" y2="225" stroke="#4A7C59" stroke-width="2"/>
+    <ellipse cx="160" cy="222" rx="6" ry="4" fill="#7CB98A"/>
+    <ellipse cx="170" cy="222" rx="6" ry="4" fill="#4A7C59"/>
+    <text x="165" y="276" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#8B5E3C">Dia 3</text>
+    <!-- cup 2 - medium stage -->
+    <rect x="250" y="240" width="50" height="40" rx="4" fill="#f5f0e6" stroke="#D4A54A" stroke-width="1.5"/>
+    <rect x="250" y="260" width="50" height="20" rx="0" fill="#8B5E3C" opacity="0.4"/>
+    <line x1="275" y1="240" x2="275" y2="210" stroke="#4A7C59" stroke-width="2.5"/>
+    <ellipse cx="267" cy="207" rx="9" ry="6" fill="#7CB98A"/>
+    <ellipse cx="283" cy="207" rx="9" ry="6" fill="#4A7C59"/>
+    <ellipse cx="270" cy="218" rx="7" ry="4" fill="#5a9a4a"/>
+    <ellipse cx="280" cy="218" rx="7" ry="4" fill="#3d7a2e"/>
+    <text x="275" y="276" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#8B5E3C">Dia 7</text>
+    <!-- cup 3 - tall stage -->
+    <rect x="360" y="240" width="50" height="40" rx="4" fill="#f5f0e6" stroke="#D4A54A" stroke-width="1.5"/>
+    <rect x="360" y="260" width="50" height="20" rx="0" fill="#8B5E3C" opacity="0.4"/>
+    <line x1="385" y1="240" x2="385" y2="185" stroke="#4A7C59" stroke-width="3"/>
+    <ellipse cx="375" cy="182" rx="12" ry="7" fill="#7CB98A"/>
+    <ellipse cx="395" cy="182" rx="12" ry="7" fill="#4A7C59"/>
+    <ellipse cx="378" cy="198" rx="9" ry="5" fill="#5a9a4a"/>
+    <ellipse cx="392" cy="198" rx="9" ry="5" fill="#3d7a2e"/>
+    <ellipse cx="382" cy="212" rx="7" ry="4" fill="#5a9a4a"/>
+    <ellipse cx="388" cy="212" rx="7" ry="4" fill="#3d7a2e"/>
+    <circle cx="385" cy="178" r="4" fill="#E8C94A"/>
+    <text x="385" y="276" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#8B5E3C">Dia 14</text>
+    <!-- cup 4 -->
+    <rect x="470" y="240" width="50" height="40" rx="4" fill="#f5f0e6" stroke="#D4A54A" stroke-width="1.5"/>
+    <rect x="470" y="260" width="50" height="20" rx="0" fill="#8B5E3C" opacity="0.4"/>
+    <circle cx="495" cy="252" r="6" fill="#D4A54A" opacity="0.5"/>
+    <text x="495" y="276" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#8B5E3C">Dia 1</text>
+  </g>
+  <!-- child hand with watering can -->
+  <g transform="translate(550 230)">
+    <rect x="0" y="0" width="30" height="25" rx="3" fill="#5B9BD5"/>
+    <path d="M30 5 L45 -5 L47 -3 L32 7Z" fill="#5B9BD5"/>
+    <rect x="8" y="-6" width="12" height="6" rx="2" fill="#89BDE5"/>
+    <circle cx="48" cy="0" r="2" fill="#89BDE5" opacity="0.5"/>
+    <circle cx="46" cy="6" r="2" fill="#89BDE5" opacity="0.4"/>
+    <!-- child arm -->
+    <path d="M-10 10 Q-15 5 -10 0 L0 5 L0 15Z" fill="#c8905d"/>
+  </g>
+  <!-- water drops -->
+  <g fill="#89BDE5" opacity="0.4">
+    <circle cx="400" cy="165" r="2"/>
+    <circle cx="395" cy="175" r="1.5"/>
+    <circle cx="405" cy="172" r="1.5"/>
+  </g>
+</svg>

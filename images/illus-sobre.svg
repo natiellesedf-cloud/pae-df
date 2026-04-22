@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2100 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="s-bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fdf6e8"/>
+      <stop offset="1" stop-color="#eef7f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="2100" height="900" fill="url(#s-bg)"/>
+  <!-- table surface -->
+  <rect x="100" y="200" width="1900" height="500" rx="20" fill="#c8905d" opacity="0.3"/>
+  <!-- plates seen from above -->
+  <g>
+    <!-- plate 1 - rice and beans -->
+    <circle cx="400" cy="400" r="110" fill="#fdf5e6" stroke="#D4A54A" stroke-width="2"/>
+    <circle cx="400" cy="400" r="95" fill="#f5f0e6"/>
+    <path d="M400 400 L400 305 A95 95 0 0 1 495 400Z" fill="#fdf5e6"/>
+    <ellipse cx="430" cy="370" rx="35" ry="25" fill="#8B5E3C" opacity="0.6"/>
+    <ellipse cx="370" cy="430" rx="35" ry="25" fill="#E8C94A" opacity="0.4"/>
+    <ellipse cx="420" cy="420" rx="20" ry="15" fill="#4A7C59" opacity="0.5"/>
+    <!-- plate 2 - salad -->
+    <circle cx="750" cy="350" r="100" fill="#fdf5e6" stroke="#4A7C59" stroke-width="2"/>
+    <circle cx="750" cy="350" r="85" fill="#eef7f0"/>
+    <circle cx="730" cy="330" r="15" fill="#7CB98A" opacity="0.7"/>
+    <circle cx="760" cy="340" r="12" fill="#e44" opacity="0.5"/>
+    <circle cx="740" cy="360" r="18" fill="#5a9a4a" opacity="0.5"/>
+    <circle cx="770" cy="365" r="10" fill="#f4903a" opacity="0.5"/>
+    <circle cx="750" cy="330" r="8" fill="#E8C94A" opacity="0.4"/>
+    <!-- plate 3 - fruit -->
+    <circle cx="1100" cy="420" r="105" fill="#fdf5e6" stroke="#E87461" stroke-width="2"/>
+    <circle cx="1100" cy="420" r="90" fill="#fdf0ee"/>
+    <circle cx="1080" cy="400" r="15" fill="#e44" opacity="0.6"/>
+    <circle cx="1110" cy="410" r="12" fill="#f90" opacity="0.6"/>
+    <path d="M1120 430 Q1130 420 1140 430 Q1130 440 1120 430Z" fill="#E8C94A"/>
+    <circle cx="1090" cy="440" r="14" fill="#8B6BAE" opacity="0.5"/>
+    <circle cx="1115" cy="435" r="10" fill="#4A7C59" opacity="0.4"/>
+    <!-- plate 4 -->
+    <circle cx="1450" cy="380" r="95" fill="#fdf5e6" stroke="#5B9BD5" stroke-width="2"/>
+    <circle cx="1450" cy="380" r="80" fill="#eef5fb"/>
+    <ellipse cx="1430" cy="370" rx="25" ry="18" fill="#c8905d" opacity="0.4"/>
+    <ellipse cx="1460" cy="390" rx="20" ry="15" fill="#4A7C59" opacity="0.5"/>
+    <circle cx="1470" cy="365" r="10" fill="#E8C94A" opacity="0.5"/>
+    <!-- plate 5 -->
+    <circle cx="1750" cy="430" r="100" fill="#fdf5e6" stroke="#D4A54A" stroke-width="2"/>
+    <circle cx="1750" cy="430" r="85" fill="#fdf6e8"/>
+    <ellipse cx="1730" cy="420" rx="30" ry="20" fill="#8B5E3C" opacity="0.5"/>
+    <ellipse cx="1770" cy="440" rx="25" ry="18" fill="#E8C94A" opacity="0.4"/>
+    <circle cx="1740" cy="445" r="12" fill="#4A7C59" opacity="0.4"/>
+  </g>
+  <!-- juice glasses -->
+  <circle cx="550" cy="280" r="20" fill="#f90" opacity="0.4"/>
+  <circle cx="550" cy="280" r="15" fill="#f90" opacity="0.3"/>
+  <circle cx="900" cy="250" r="18" fill="#E8C94A" opacity="0.4"/>
+  <circle cx="900" cy="250" r="13" fill="#E8C94A" opacity="0.3"/>
+  <circle cx="1300" cy="290" r="20" fill="#E87461" opacity="0.3"/>
+  <circle cx="1300" cy="290" r="15" fill="#E87461" opacity="0.2"/>
+  <!-- colored placemats -->
+  <rect x="250" y="550" width="180" height="120" rx="8" fill="#E87461" opacity="0.1"/>
+  <rect x="600" y="530" width="180" height="120" rx="8" fill="#5B9BD5" opacity="0.1"/>
+  <rect x="950" y="560" width="180" height="120" rx="8" fill="#4A7C59" opacity="0.1"/>
+  <rect x="1300" y="540" width="180" height="120" rx="8" fill="#D4A54A" opacity="0.1"/>
+  <rect x="1650" y="555" width="180" height="120" rx="8" fill="#8B6BAE" opacity="0.1"/>
+  <!-- small hands reaching -->
+  <g opacity="0.6">
+    <path d="M300 620 Q310 600 320 610 L325 630 Q320 640 310 635Z" fill="#c8905d"/>
+    <path d="M680 610 Q690 590 700 600 L705 620 Q700 630 690 625Z" fill="#8B5E3C"/>
+    <path d="M1050 630 Q1060 610 1070 620 L1075 640 Q1070 650 1060 645Z" fill="#e0b090"/>
+    <path d="M1400 615 Q1410 595 1420 605 L1425 625 Q1420 635 1410 630Z" fill="#6d4a2a"/>
+    <path d="M1750 625 Q1760 605 1770 615 L1775 635 Q1770 645 1760 640Z" fill="#c8905d"/>
+  </g>
+</svg>

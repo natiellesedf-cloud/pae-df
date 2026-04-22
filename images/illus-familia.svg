@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="bg-fam" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#87CEEB"/>
+      <stop offset="0.5" stop-color="#b8e4a0"/>
+      <stop offset="1" stop-color="#7CB98A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg-fam)"/>
+  <!-- sun -->
+  <circle cx="650" cy="80" r="45" fill="#E8C94A" opacity="0.5"/>
+  <!-- clouds -->
+  <ellipse cx="200" cy="70" rx="60" ry="20" fill="white" opacity="0.5"/>
+  <ellipse cx="500" cy="50" rx="50" ry="18" fill="white" opacity="0.4"/>
+  <!-- trees -->
+  <g transform="translate(80 300)">
+    <rect x="-6" y="-100" width="12" height="100" rx="4" fill="#8B5E3C"/>
+    <circle cx="0" cy="-120" r="40" fill="#4A7C59"/>
+    <circle cx="-25" cy="-105" r="28" fill="#3d6a40"/>
+    <circle cx="25" cy="-105" r="28" fill="#3d6a40"/>
+  </g>
+  <g transform="translate(720 310)">
+    <rect x="-5" y="-90" width="10" height="90" rx="3" fill="#8B5E3C"/>
+    <circle cx="0" cy="-110" r="35" fill="#4A7C59"/>
+    <circle cx="-20" cy="-95" r="25" fill="#3d6a40"/>
+    <circle cx="20" cy="-95" r="25" fill="#3d6a40"/>
+  </g>
+  <!-- grass -->
+  <path d="M0 380 C200 360 400 380 600 370 C700 365 800 375 800 375 L800 520 L0 520Z" fill="#5a9a4a"/>
+  <!-- checkered blanket -->
+  <g transform="translate(200 380) rotate(-5)">
+    <rect x="0" y="0" width="400" height="120" rx="4" fill="#E87461" opacity="0.3"/>
+    <g fill="#fdf5e6" opacity="0.5">
+      <rect x="0" y="0" width="50" height="30"/>
+      <rect x="100" y="0" width="50" height="30"/>
+      <rect x="200" y="0" width="50" height="30"/>
+      <rect x="300" y="0" width="50" height="30"/>
+      <rect x="50" y="30" width="50" height="30"/>
+      <rect x="150" y="30" width="50" height="30"/>
+      <rect x="250" y="30" width="50" height="30"/>
+      <rect x="350" y="30" width="50" height="30"/>
+      <rect x="0" y="60" width="50" height="30"/>
+      <rect x="100" y="60" width="50" height="30"/>
+      <rect x="200" y="60" width="50" height="30"/>
+      <rect x="300" y="60" width="50" height="30"/>
+      <rect x="50" y="90" width="50" height="30"/>
+      <rect x="150" y="90" width="50" height="30"/>
+      <rect x="250" y="90" width="50" height="30"/>
+      <rect x="350" y="90" width="50" height="30"/>
+    </g>
+  </g>
+  <!-- family -->
+  <g transform="translate(300 350)">
+    <!-- parent 1 -->
+    <circle cx="0" cy="-50" r="16" fill="#6d4a2a"/>
+    <rect x="-14" y="-34" width="28" height="35" rx="4" fill="#5B9BD5"/>
+    <!-- parent 2 -->
+    <circle cx="60" cy="-48" r="15" fill="#c8905d"/>
+    <rect x="47" y="-33" width="26" height="33" rx="4" fill="#E87461"/>
+    <!-- child 1 -->
+    <circle cx="120" cy="-35" r="12" fill="#8B5E3C"/>
+    <rect x="110" y="-23" width="20" height="25" rx="3" fill="#E8C94A"/>
+    <!-- child 2 -->
+    <circle cx="160" cy="-32" r="10" fill="#e0b090"/>
+    <rect x="152" y="-22" width="16" height="22" rx="3" fill="#4A7C59"/>
+  </g>
+  <!-- basket -->
+  <g transform="translate(460 395)">
+    <path d="M-25 0 Q-30 -30 0 -30 Q30 -30 25 0Z" fill="#D4A54A"/>
+    <path d="M-20 -30 Q0 -45 20 -30" stroke="#8B5E3C" stroke-width="3" fill="none"/>
+    <circle cx="-8" cy="-20" r="6" fill="#e44"/>
+    <circle cx="5" cy="-22" r="5" fill="#f90"/>
+    <circle cx="12" cy="-18" r="5" fill="#E8C94A"/>
+  </g>
+  <!-- birds -->
+  <path d="M350 100 Q360 90 370 100" stroke="#5a2f1c" stroke-width="2" fill="none"/>
+  <path d="M380 110 Q390 100 400 110" stroke="#5a2f1c" stroke-width="2" fill="none"/>
+</svg>

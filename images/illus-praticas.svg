@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="bg-prat" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef7f0"/>
+      <stop offset="1" stop-color="#d5eadb"/>
+    </linearGradient>
+    <linearGradient id="soil" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#8B5E3C"/>
+      <stop offset="1" stop-color="#5a3520"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg-prat)"/>
+  <!-- sun -->
+  <circle cx="680" cy="80" r="50" fill="#E8C94A" opacity="0.4"/>
+  <g stroke="#E8C94A" stroke-width="3" opacity="0.3">
+    <line x1="680" y1="20" x2="680" y2="5"/>
+    <line x1="720" y1="40" x2="735" y2="30"/>
+    <line x1="740" y1="80" x2="755" y2="80"/>
+    <line x1="720" y1="120" x2="735" y2="130"/>
+    <line x1="640" y1="40" x2="625" y2="30"/>
+    <line x1="620" y1="80" x2="605" y2="80"/>
+  </g>
+  <!-- soil bed -->
+  <rect x="100" y="320" width="600" height="120" rx="8" fill="url(#soil)"/>
+  <rect x="100" y="310" width="600" height="20" rx="6" fill="#a07040"/>
+  <!-- seedlings at different stages -->
+  <g>
+    <!-- seedling 1 -->
+    <line x1="200" y1="310" x2="200" y2="260" stroke="#4A7C59" stroke-width="3"/>
+    <ellipse cx="192" cy="255" rx="12" ry="8" fill="#7CB98A"/>
+    <ellipse cx="208" cy="255" rx="12" ry="8" fill="#4A7C59"/>
+    <!-- seedling 2 -->
+    <line x1="300" y1="310" x2="300" y2="240" stroke="#4A7C59" stroke-width="3"/>
+    <ellipse cx="290" cy="235" rx="14" ry="9" fill="#7CB98A"/>
+    <ellipse cx="310" cy="235" rx="14" ry="9" fill="#4A7C59"/>
+    <ellipse cx="295" cy="248" rx="10" ry="6" fill="#5a9a4a"/>
+    <ellipse cx="305" cy="248" rx="10" ry="6" fill="#3d7a2e"/>
+    <!-- seedling 3 -->
+    <line x1="400" y1="310" x2="400" y2="220" stroke="#4A7C59" stroke-width="4"/>
+    <ellipse cx="388" cy="215" rx="16" ry="10" fill="#7CB98A"/>
+    <ellipse cx="412" cy="215" rx="16" ry="10" fill="#4A7C59"/>
+    <ellipse cx="393" cy="232" rx="12" ry="7" fill="#5a9a4a"/>
+    <ellipse cx="407" cy="232" rx="12" ry="7" fill="#3d7a2e"/>
+    <circle cx="400" cy="210" r="4" fill="#E8C94A"/>
+    <!-- seedling 4 -->
+    <line x1="500" y1="310" x2="500" y2="250" stroke="#4A7C59" stroke-width="3"/>
+    <ellipse cx="492" cy="245" rx="13" ry="8" fill="#7CB98A"/>
+    <ellipse cx="508" cy="245" rx="13" ry="8" fill="#4A7C59"/>
+    <!-- seedling 5 -->
+    <line x1="600" y1="310" x2="600" y2="270" stroke="#4A7C59" stroke-width="2"/>
+    <ellipse cx="594" cy="268" rx="8" ry="5" fill="#7CB98A"/>
+    <ellipse cx="606" cy="268" rx="8" ry="5" fill="#4A7C59"/>
+  </g>
+  <!-- children hands planting -->
+  <g>
+    <!-- hand 1 - dark skin -->
+    <path d="M170 280 Q160 260 170 250 Q175 245 180 250 L185 270 Q188 280 180 285Z" fill="#8B5E3C"/>
+    <!-- hand 2 - medium skin -->
+    <path d="M460 275 Q450 255 460 245 Q465 240 470 245 L475 265 Q478 275 470 280Z" fill="#c8905d"/>
+    <!-- hand 3 - light skin -->
+    <path d="M560 285 Q550 265 560 255 Q565 250 570 255 L575 275 Q578 285 570 290Z" fill="#e0b090"/>
+  </g>
+  <!-- watering can -->
+  <g transform="translate(650 260)">
+    <rect x="0" y="0" width="35" height="30" rx="4" fill="#5B9BD5"/>
+    <path d="M35 5 L55 -10 L57 -8 L37 7Z" fill="#5B9BD5"/>
+    <rect x="10" y="-8" width="15" height="8" rx="3" fill="#89BDE5"/>
+    <!-- water drops -->
+    <circle cx="58" cy="-4" r="2" fill="#89BDE5" opacity="0.6"/>
+    <circle cx="62" cy="2" r="2" fill="#89BDE5" opacity="0.5"/>
+    <circle cx="56" cy="4" r="2" fill="#89BDE5" opacity="0.4"/>
+  </g>
+  <!-- ladybug -->
+  <g transform="translate(340 300)">
+    <circle cx="0" cy="0" r="8" fill="#E87461"/>
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#2F3D1E" stroke-width="1.5"/>
+    <circle cx="-3" cy="-3" r="2" fill="#2F3D1E"/>
+    <circle cx="3" cy="2" r="2" fill="#2F3D1E"/>
+    <circle cx="-4" cy="4" r="1.5" fill="#2F3D1E"/>
+    <circle cx="0" cy="-10" r="4" fill="#2F3D1E"/>
+  </g>
+  <!-- worms -->
+  <path d="M250 370 Q260 360 270 370 Q280 380 290 370" stroke="#D4A54A" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M450 390 Q460 380 470 390 Q480 400 490 390" stroke="#D4A54A" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

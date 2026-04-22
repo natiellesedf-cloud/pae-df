@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="bg-bncc" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef7f0"/>
+      <stop offset="1" stop-color="#fdf6e8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg-bncc)"/>
+  <!-- tree trunk -->
+  <rect x="385" y="260" width="30" height="200" rx="8" fill="#8B5E3C"/>
+  <!-- roots with "6 Direitos" -->
+  <g stroke="#8B5E3C" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M400 460 Q360 490 320 500"/>
+    <path d="M400 460 Q380 495 360 510"/>
+    <path d="M400 460 Q420 495 440 510"/>
+    <path d="M400 460 Q440 490 480 500"/>
+  </g>
+  <text x="400" y="505" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#8B5E3C">6 DIREITOS DE APRENDIZAGEM</text>
+  <!-- branch 1 - purple - Eu/Outro/Nos -->
+  <g>
+    <path d="M400 280 Q330 240 260 200" stroke="#8B6BAE" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="250" cy="190" r="50" fill="#8B6BAE" opacity="0.85"/>
+    <circle cx="240" cy="178" r="8" fill="#f3eef8"/>
+    <circle cx="260" cy="178" r="8" fill="#f3eef8"/>
+    <circle cx="250" cy="198" r="8" fill="#f3eef8"/>
+    <text x="250" y="220" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" font-weight="600" fill="white">EU, OUTRO, NOS</text>
+  </g>
+  <!-- branch 2 - blue - Escuta/Fala -->
+  <g>
+    <path d="M400 260 Q350 200 310 140" stroke="#5B9BD5" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="300" cy="130" r="45" fill="#5B9BD5" opacity="0.85"/>
+    <path d="M285 120 Q285 110 295 110 L305 110 Q315 110 315 120 L315 130 Q315 140 305 140 L295 135 L288 142 L290 135 Q285 135 285 130Z" fill="#eef5fb"/>
+    <text x="300" y="155" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" font-weight="600" fill="white">ESCUTA E FALA</text>
+  </g>
+  <!-- branch 3 - green - Espacos/Tempos -->
+  <g>
+    <path d="M400 260 Q400 180 400 100" stroke="#4A7C59" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="400" cy="80" r="48" fill="#4A7C59" opacity="0.85"/>
+    <circle cx="400" cy="70" r="14" fill="none" stroke="#eef7f0" stroke-width="2"/>
+    <line x1="400" y1="70" x2="400" y2="62" stroke="#eef7f0" stroke-width="2"/>
+    <line x1="400" y1="70" x2="408" y2="74" stroke="#eef7f0" stroke-width="2"/>
+    <text x="400" y="100" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" font-weight="600" fill="white">ESPACOS E TEMPOS</text>
+  </g>
+  <!-- branch 4 - orange - Tracos/Sons/Cores -->
+  <g>
+    <path d="M400 260 Q450 200 490 140" stroke="#D4A54A" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="500" cy="130" r="45" fill="#D4A54A" opacity="0.85"/>
+    <rect x="490" y="115" width="4" height="20" rx="2" fill="#fdf6e8"/>
+    <circle cx="492" cy="113" r="6" fill="#fdf6e8"/>
+    <path d="M505 120 L515 110 L515 135 L505 125" fill="#fdf6e8"/>
+    <text x="500" y="155" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" font-weight="600" fill="white">TRACOS E CORES</text>
+  </g>
+  <!-- branch 5 - coral - Corpo/Gestos -->
+  <g>
+    <path d="M400 280 Q470 240 540 200" stroke="#E87461" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="550" cy="190" r="50" fill="#E87461" opacity="0.85"/>
+    <path d="M540 180 Q540 170 550 170 Q560 170 560 180 L560 195 L555 200 L545 200 L540 195Z" fill="#fdf0ee"/>
+    <circle cx="535" cy="188" r="4" fill="#fdf0ee"/>
+    <circle cx="565" cy="188" r="4" fill="#fdf0ee"/>
+    <text x="550" y="220" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" font-weight="600" fill="white">CORPO E GESTOS</text>
+  </g>
+  <!-- small leaves on trunk -->
+  <circle cx="395" cy="290" r="4" fill="#4A7C59" opacity="0.5"/>
+  <circle cx="415" cy="310" r="3" fill="#4A7C59" opacity="0.4"/>
+  <circle cx="390" cy="340" r="3" fill="#4A7C59" opacity="0.3"/>
+</svg>

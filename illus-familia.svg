@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2100 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="f-bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#c8d8a8"></stop>
+      <stop offset="0.5" stop-color="#9ab880"></stop>
+      <stop offset="1" stop-color="#6a8a50"></stop>
+    </linearGradient>
+    <radialGradient id="f-sun" cx="20%" cy="20%" r="45%">
+      <stop offset="0" stop-color="#fde7b8" stop-opacity="0.8"></stop>
+      <stop offset="1" stop-color="#fde7b8" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+
+  <rect width="2100" height="900" fill="url(#f-bg)"></rect>
+  <rect width="2100" height="900" fill="url(#f-sun)"></rect>
+
+  
+  <g fill="#4a7a3a" opacity="0.6">
+    <path d="M0 620 Q 300 600 600 615 T 1200 610 T 1800 620 T 2100 615 L 2100 900 L 0 900 Z"></path>
+  </g>
+  <g fill="#3a5a28">
+    <path d="M0 680 Q 400 660 800 675 T 1500 670 T 2100 676 L 2100 900 L 0 900 Z"></path>
+  </g>
+
+  
+  <g transform="translate(1050 720) rotate(-3)">
+    <rect x="-650" y="-80" width="1300" height="200" fill="#c65a3a" rx="4"></rect>
+    <g fill="#fdf5e6" opacity="0.95">
+      <rect x="-650" y="-80" width="100" height="200"></rect>
+      <rect x="-450" y="-80" width="100" height="200"></rect>
+      <rect x="-250" y="-80" width="100" height="200"></rect>
+      <rect x="-50" y="-80" width="100" height="200"></rect>
+      <rect x="150" y="-80" width="100" height="200"></rect>
+      <rect x="350" y="-80" width="100" height="200"></rect>
+      <rect x="550" y="-80" width="100" height="200"></rect>
+    </g>
+    <g fill="#e08050" opacity="0.6">
+      <rect x="-650" y="-80" width="1300" height="40"></rect>
+      <rect x="-650" y="40" width="1300" height="40"></rect>
+    </g>
+  </g>
+
+  
+  <g transform="translate(1050 710)">
+    
+    <g transform="translate(-350 0)">
+      <ellipse cx="0" cy="6" rx="70" ry="20" fill="#7a3828"></ellipse>
+      <ellipse cx="0" cy="0" rx="70" ry="18" fill="#a64a28"></ellipse>
+      <circle cx="-30" cy="-12" r="18" fill="#c65a3a"></circle>
+      <circle cx="5" cy="-18" r="16" fill="#e8a445"></circle>
+      <circle cx="30" cy="-10" r="18" fill="#4a7a3a"></circle>
+      <circle cx="-10" cy="-24" r="14" fill="#8a3a5a"></circle>
+      <circle cx="18" cy="-26" r="12" fill="#c65a3a"></circle>
+    </g>
+    
+    <g transform="translate(-100 5)">
+      <ellipse cx="0" cy="8" rx="80" ry="18" fill="#8a5028"></ellipse>
+      <rect x="-75" y="-10" width="150" height="18" rx="3" fill="#a67540"></rect>
+      <ellipse cx="-30" cy="-14" rx="28" ry="14" fill="#e0b078"></ellipse>
+      <ellipse cx="30" cy="-12" rx="26" ry="12" fill="#d9a67a"></ellipse>
+      <ellipse cx="0" cy="-22" rx="24" ry="10" fill="#e8a445"></ellipse>
+    </g>
+    
+    <g transform="translate(160 0)">
+      <rect x="-28" y="-60" width="56" height="70" rx="6" fill="#f6ecd6" opacity="0.7"></rect>
+      <rect x="-28" y="-30" width="56" height="40" rx="0" fill="#e8a445" opacity="0.85"></rect>
+      <rect x="-22" y="-68" width="44" height="10" rx="2" fill="#a64a28"></rect>
+    </g>
+    
+    <g transform="translate(340 5)">
+      <ellipse cx="0" cy="8" rx="70" ry="16" fill="#d9d4c8"></ellipse>
+      <ellipse cx="0" cy="4" rx="70" ry="14" fill="#fdf5e6"></ellipse>
+      <path d="M-40 -10 L 40 -10 L 44 2 L -44 2 Z" fill="#e0b078"></path>
+      <path d="M-40 -10 L 40 -10 L 36 -20 L -36 -20 Z" fill="#c49158"></path>
+      <rect x="-38" y="-16" width="76" height="4" fill="#4a7a3a" opacity="0.6"></rect>
+      <rect x="-36" y="-12" width="72" height="3" fill="#c65a3a" opacity="0.7"></rect>
+    </g>
+  </g>
+
+  
+  <g>
+    
+    <g transform="translate(260 620)">
+      
+      <path d="M-80 80 Q -100 200 -70 280 L 70 280 Q 100 200 80 80 Z" fill="#8a3a5a"></path>
+      <g fill="#fdf5e6" opacity="0.7">
+        <circle cx="-30" cy="130" r="8"></circle>
+        <circle cx="20" cy="180" r="7"></circle>
+        <circle cx="-40" cy="220" r="6"></circle>
+        <circle cx="30" cy="240" r="8"></circle>
+        <circle cx="-10" cy="170" r="6"></circle>
+      </g>
+      
+      <circle cx="0" cy="30" r="42" fill="#a86840"></circle>
+      
+      <path d="M-38 20 Q -50 60 -45 100 L -25 80 Q -30 40 -15 20 Z" fill="#2a1408"></path>
+      <path d="M38 20 Q 50 60 45 100 L 25 80 Q 30 40 15 20 Z" fill="#2a1408"></path>
+      <path d="M-30 -5 Q -38 -30 0 -40 Q 38 -30 30 -5 Q 30 5 26 8 L -26 8 Q -30 5 -30 -5 Z" fill="#2a1408"></path>
+    </g>
+    
+    <g transform="translate(450 680)">
+      <path d="M-40 40 Q -50 130 -30 200 L 30 200 Q 50 130 40 40 Z" fill="#4a7a3a"></path>
+      <circle cx="0" cy="10" r="28" fill="#b87850"></circle>
+      <path d="M-24 -10 Q -28 -28 0 -32 Q 28 -28 24 -10 Q 24 2 20 4 L -20 4 Q -24 2 -24 -10 Z" fill="#2a1408"></path>
+    </g>
+    
+    <g transform="translate(850 640)">
+      <path d="M-44 50 Q -54 160 -30 230 L 30 230 Q 54 160 44 50 Z" fill="#e8a445"></path>
+      
+      <path d="M-30 70 Q -90 120 -120 150 Q -110 170 -90 160 Q -50 140 -20 130 Z" fill="#c8905d"></path>
+      <circle cx="0" cy="20" r="32" fill="#c8905d"></circle>
+      <path d="M-28 0 Q -32 -28 0 -34 Q 32 -28 28 0 Q 28 14 24 16 L -24 16 Q -28 14 -28 0 Z" fill="#1a0e06"></path>
+    </g>
+    
+    <g transform="translate(1420 670)">
+      <path d="M-42 50 Q -52 150 -28 220 L 28 220 Q 52 150 42 50 Z" fill="#c65a3a"></path>
+      <circle cx="0" cy="15" r="30" fill="#d9a680"></circle>
+      <path d="M-26 -8 Q -30 -32 0 -38 Q 30 -32 26 -8 Q 26 6 22 8 L -22 8 Q -26 6 -26 -8 Z" fill="#5a3018"></path>
+    </g>
+    
+    <g transform="translate(1780 610)">
+      <path d="M-85 80 Q -105 210 -75 290 L 75 290 Q 105 210 85 80 Z" fill="#4a6a7a"></path>
+      <circle cx="0" cy="30" r="44" fill="#a86840"></circle>
+      <path d="M-36 10 Q -42 -18 0 -26 Q 42 -18 36 10 Q 36 20 32 22 L -32 22 Q -36 20 -36 10 Z" fill="#1a0e06"></path>
+      
+      <path d="M-22 55 Q 0 72 22 55 Q 20 65 0 70 Q -20 65 -22 55 Z" fill="#2a1408"></path>
+    </g>
+  </g>
+
+  
+  <g opacity="0.8">
+    <path d="M480 180 Q 490 160 510 165 Q 515 180 500 195 Z" fill="#4a7a3a"></path>
+    <path d="M1600 220 Q 1612 200 1630 210 Q 1632 226 1614 238 Z" fill="#6a9a58"></path>
+    <path d="M900 120 Q 908 105 924 112 Q 924 126 910 134 Z" fill="#c65a3a"></path>
+  </g>
+</svg>

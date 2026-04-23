@@ -1,236 +1,230 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600">
   <defs>
     <linearGradient id="bg-n" x1="0" x2="0" y1="0" y2="1">
       <stop offset="0" stop-color="#e8f5e9"/>
+      <stop offset="0.5" stop-color="#f5f0e6"/>
       <stop offset="1" stop-color="#fdf6e8"/>
     </linearGradient>
-    <linearGradient id="floor" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0" stop-color="#d4b896"/>
-      <stop offset="1" stop-color="#c8a882"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
-      <stop offset="0" stop-color="#E8C94A" stop-opacity="0.12"/>
+    <radialGradient id="glow" cx="50%" cy="35%" r="55%">
+      <stop offset="0" stop-color="#E8C94A" stop-opacity="0.1"/>
       <stop offset="1" stop-color="#E8C94A" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
-  <!-- sky/room background -->
-  <rect width="800" height="520" fill="url(#bg-n)"/>
-  <rect width="800" height="520" fill="url(#glow)"/>
+  <!-- background -->
+  <rect width="480" height="600" fill="url(#bg-n)"/>
+  <rect width="480" height="600" fill="url(#glow)"/>
 
-  <!-- floor -->
-  <rect x="0" y="400" width="800" height="120" fill="url(#floor)"/>
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#c09a70" stroke-width="1.5"/>
+  <!-- decorative circle frame -->
+  <circle cx="240" cy="260" r="190" fill="white" opacity="0.35"/>
+  <circle cx="240" cy="260" r="180" fill="none" stroke="#D4A54A" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.4"/>
 
-  <!-- ===== LARGE CIRCLE ILLUSTRATION FRAME ===== -->
-  <circle cx="400" cy="240" r="210" fill="white" opacity="0.5"/>
-  <circle cx="400" cy="240" r="200" fill="#fdf6e8" stroke="#D4A54A" stroke-width="2" stroke-dasharray="8 4" opacity="0.6"/>
+  <!-- sparkle stars -->
+  <g fill="#E8C94A" opacity="0.3">
+    <path d="M80 80 L82 88 L90 90 L82 92 L80 100 L78 92 L70 90 L78 88Z"/>
+    <path d="M400 60 L401 65 L406 66 L401 67 L400 72 L399 67 L394 66 L399 65Z"/>
+    <path d="M60 200 L61 205 L66 206 L61 207 L60 212 L59 207 L54 206 L59 205Z"/>
+    <path d="M420 300 L421 305 L426 306 L421 307 L420 312 L419 307 L414 306 L419 305Z"/>
+  </g>
 
-  <!-- ===== NUTRITIONIST (center, prominent) ===== -->
-  <g transform="translate(400 220)">
+  <!-- floating food icons (top area) -->
+  <!-- apple -->
+  <g transform="translate(80 130)" opacity="0.55">
+    <circle cx="0" cy="0" r="16" fill="#e53935"/>
+    <rect x="-2" y="-20" width="4" height="7" rx="1.5" fill="#5a3520"/>
+    <ellipse cx="5" cy="-16" rx="5" ry="3" fill="#4A7C59" transform="rotate(25 5 -16)"/>
+  </g>
+  <!-- carrot -->
+  <g transform="translate(400 150)" opacity="0.45">
+    <path d="M-6 18 L0 -12 L6 18Z" fill="#f4903a"/>
+    <path d="M0 -12 Q-5 -22 -10 -26" stroke="#4A7C59" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M0 -12 Q5 -22 10 -26" stroke="#4A7C59" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- broccoli -->
+  <g transform="translate(70 310)" opacity="0.4">
+    <rect x="-2.5" y="6" width="5" height="14" rx="2" fill="#4A7C59"/>
+    <circle cx="0" cy="0" r="11" fill="#4A7C59"/>
+    <circle cx="-8" cy="5" r="8" fill="#3d6a40"/>
+    <circle cx="8" cy="5" r="8" fill="#3d6a40"/>
+    <circle cx="-3" cy="-3" r="3.5" fill="#5a9a4a"/>
+    <circle cx="4" cy="-2" r="3" fill="#5a9a4a"/>
+  </g>
+  <!-- banana -->
+  <g transform="translate(410 240)" opacity="0.4">
+    <path d="M-12 10 Q-2 -15 12 -5 Q5 12 -8 14Z" fill="#E8C94A"/>
+  </g>
+
+  <!-- ===== NUTRITIONIST (center) ===== -->
+  <g transform="translate(240 250)">
     <!-- shadow -->
-    <ellipse cx="0" cy="155" rx="45" ry="8" fill="#000" opacity="0.06"/>
+    <ellipse cx="0" cy="195" rx="55" ry="10" fill="#000" opacity="0.05"/>
 
     <!-- legs -->
-    <rect x="-16" y="95" width="13" height="55" rx="5" fill="#3d6a40"/>
-    <rect x="3" y="95" width="13" height="55" rx="5" fill="#3d6a40"/>
+    <rect x="-18" y="120" width="15" height="65" rx="6" fill="#3d6a40"/>
+    <rect x="3" y="120" width="15" height="65" rx="6" fill="#3d6a40"/>
     <!-- shoes -->
-    <ellipse cx="-10" cy="150" rx="10" ry="5" fill="#2d5a3a"/>
-    <ellipse cx="10" cy="150" rx="10" ry="5" fill="#2d5a3a"/>
+    <ellipse cx="-11" cy="186" rx="12" ry="6" fill="#2d5a3a"/>
+    <ellipse cx="11" cy="186" rx="12" ry="6" fill="#2d5a3a"/>
 
     <!-- body / lab coat -->
-    <path d="M-30 20 Q-32 60 -28 95 L28 95 Q32 60 30 20 Q20 10 0 8 Q-20 10 -30 20Z" fill="white" stroke="#e8e8e8" stroke-width="0.5"/>
-    <!-- coat buttons -->
-    <circle cx="0" cy="40" r="2.5" fill="#ddd"/>
-    <circle cx="0" cy="55" r="2.5" fill="#ddd"/>
-    <circle cx="0" cy="70" r="2.5" fill="#ddd"/>
+    <path d="M-35 22 Q-38 70 -34 120 L34 120 Q38 70 35 22 Q24 10 0 8 Q-24 10 -35 22Z" fill="white" stroke="#eee" stroke-width="0.5"/>
     <!-- coat lapels -->
-    <path d="M-10 15 L0 30 L10 15" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+    <path d="M-12 18 L0 32 L12 18" fill="none" stroke="#e0e0e0" stroke-width="1.2"/>
+    <!-- buttons -->
+    <circle cx="0" cy="48" r="3" fill="#ddd"/>
+    <circle cx="0" cy="66" r="3" fill="#ddd"/>
+    <circle cx="0" cy="84" r="3" fill="#ddd"/>
     <!-- pocket -->
-    <rect x="10" y="50" width="14" height="12" rx="2" fill="none" stroke="#e0e0e0" stroke-width="0.8"/>
-    <!-- pen in pocket -->
-    <rect x="16" y="46" width="2" height="10" rx="1" fill="#5B9BD5"/>
-    <!-- name badge -->
-    <rect x="-24" y="35" width="18" height="12" rx="3" fill="#4A7C59"/>
-    <text x="-15" y="44" text-anchor="middle" font-family="Inter,sans-serif" font-size="5.5" fill="white" font-weight="600">CRN</text>
+    <rect x="12" y="58" width="16" height="14" rx="3" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+    <!-- pen -->
+    <rect x="19" y="52" width="2.5" height="12" rx="1" fill="#5B9BD5"/>
+    <!-- badge -->
+    <rect x="-30" y="40" width="22" height="14" rx="3.5" fill="#4A7C59"/>
+    <text x="-19" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="6.5" fill="white" font-weight="700">CRN</text>
 
-    <!-- green shirt under coat -->
-    <rect x="-12" y="18" width="24" height="15" rx="3" fill="#4A7C59"/>
+    <!-- green shirt -->
+    <rect x="-14" y="20" width="28" height="16" rx="4" fill="#4A7C59"/>
 
     <!-- neck -->
-    <rect x="-6" y="5" width="12" height="15" rx="4" fill="#8B6840"/>
+    <rect x="-7" y="4" width="14" height="18" rx="5" fill="#8B6840"/>
 
     <!-- head -->
-    <circle cx="0" cy="-12" r="24" fill="#8B6840"/>
-    <!-- hair - woman with bun -->
-    <path d="M-24 -15 Q-26 -40 0 -42 Q26 -40 24 -15" fill="#2d1a0a"/>
-    <circle cx="0" cy="-42" r="10" fill="#2d1a0a"/>
+    <circle cx="0" cy="-18" r="28" fill="#8B6840"/>
+    <!-- hair bun -->
+    <path d="M-28 -22 Q-30 -52 0 -54 Q30 -52 28 -22" fill="#2d1a0a"/>
+    <circle cx="0" cy="-54" r="13" fill="#2d1a0a"/>
     <!-- hair pin -->
-    <circle cx="8" cy="-40" r="2.5" fill="#E87461"/>
-    <!-- face features -->
-    <circle cx="-8" cy="-14" r="2.5" fill="#3d2415"/>
-    <circle cx="8" cy="-14" r="2.5" fill="#3d2415"/>
+    <circle cx="10" cy="-52" r="3" fill="#E87461"/>
+    <!-- earrings -->
+    <circle cx="-26" cy="-10" r="3" fill="#D4A54A"/>
+    <circle cx="26" cy="-10" r="3" fill="#D4A54A"/>
     <!-- glasses -->
-    <circle cx="-8" cy="-14" r="6" fill="none" stroke="#D4A54A" stroke-width="1.2"/>
-    <circle cx="8" cy="-14" r="6" fill="none" stroke="#D4A54A" stroke-width="1.2"/>
-    <line x1="-2" y1="-14" x2="2" y2="-14" stroke="#D4A54A" stroke-width="1"/>
+    <circle cx="-10" cy="-20" r="8" fill="none" stroke="#D4A54A" stroke-width="1.5"/>
+    <circle cx="10" cy="-20" r="8" fill="none" stroke="#D4A54A" stroke-width="1.5"/>
+    <line x1="-2" y1="-20" x2="2" y2="-20" stroke="#D4A54A" stroke-width="1.2"/>
+    <line x1="-18" y1="-20" x2="-26" y2="-22" stroke="#D4A54A" stroke-width="1"/>
+    <line x1="18" y1="-20" x2="26" y2="-22" stroke="#D4A54A" stroke-width="1"/>
+    <!-- eyes -->
+    <circle cx="-10" cy="-20" r="3" fill="#3d2415"/>
+    <circle cx="10" cy="-20" r="3" fill="#3d2415"/>
+    <circle cx="-9" cy="-21" r="1" fill="white"/>
+    <circle cx="11" cy="-21" r="1" fill="white"/>
+    <!-- eyebrows -->
+    <path d="M-15 -28 Q-10 -31 -5 -28" stroke="#2d1a0a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M5 -28 Q10 -31 15 -28" stroke="#2d1a0a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- nose -->
+    <path d="M-1 -14 Q0 -10 1 -14" stroke="#7a5a38" stroke-width="1" fill="none"/>
     <!-- smile -->
-    <path d="M-5 -5 Q0 1 5 -5" stroke="#5a3520" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M-8 -6 Q0 4 8 -6" stroke="#5a3520" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- teeth hint -->
+    <path d="M-5 -6 Q0 0 5 -6" fill="white" opacity="0.7"/>
     <!-- blush -->
-    <circle cx="-13" cy="-6" r="4" fill="#E87461" opacity="0.2"/>
-    <circle cx="13" cy="-6" r="4" fill="#E87461" opacity="0.2"/>
+    <circle cx="-17" cy="-8" r="5" fill="#E87461" opacity="0.18"/>
+    <circle cx="17" cy="-8" r="5" fill="#E87461" opacity="0.18"/>
 
-    <!-- LEFT ARM - holding a plate with food -->
-    <path d="M-30 30 Q-55 20 -65 35 Q-70 42 -65 45 L-30 40Z" fill="#8B6840"/>
-    <!-- plate in left hand -->
-    <ellipse cx="-72" cy="38" rx="28" ry="12" fill="#fdf5e6" stroke="#D4A54A" stroke-width="1.5"/>
+    <!-- LEFT ARM - holding plate -->
+    <path d="M-35 35 Q-65 25 -80 40 Q-85 48 -78 52 L-35 48Z" fill="#8B6840"/>
+    <!-- plate -->
+    <ellipse cx="-88" cy="42" rx="32" ry="14" fill="#fdf5e6" stroke="#D4A54A" stroke-width="1.5"/>
     <!-- food on plate -->
-    <circle cx="-82" cy="32" r="7" fill="#e53935" opacity="0.8"/>
-    <circle cx="-70" cy="30" r="6" fill="#4A7C59" opacity="0.7"/>
-    <circle cx="-60" cy="33" r="5" fill="#E8C94A" opacity="0.8"/>
-    <ellipse cx="-75" cy="38" rx="8" ry="4" fill="#8B5E3C" opacity="0.5"/>
+    <circle cx="-100" cy="35" r="8" fill="#e53935" opacity="0.8"/>
+    <ellipse cx="-85" cy="33" rx="7" ry="5" fill="#4A7C59" opacity="0.7"/>
+    <circle cx="-75" cy="37" r="6" fill="#E8C94A" opacity="0.8"/>
+    <ellipse cx="-90" cy="44" rx="10" ry="5" fill="#8B5E3C" opacity="0.45"/>
 
-    <!-- RIGHT ARM - pointing up (teaching gesture) -->
-    <path d="M30 28 Q50 15 55 0 Q58 -5 55 -2 L52 8 Q48 18 32 30Z" fill="#8B6840"/>
-    <!-- hand pointing -->
-    <circle cx="55" cy="-2" r="5" fill="#8B6840"/>
-    <path d="M55 -7 L55 -18" stroke="#8B6840" stroke-width="3" stroke-linecap="round"/>
+    <!-- RIGHT ARM - pointing up -->
+    <path d="M35 32 Q58 15 65 -5 Q68 -12 64 -8 L60 5 Q55 18 37 34Z" fill="#8B6840"/>
+    <!-- hand -->
+    <circle cx="65" cy="-8" r="6" fill="#8B6840"/>
+    <!-- pointing finger -->
+    <path d="M65 -14 L65 -28" stroke="#8B6840" stroke-width="4" stroke-linecap="round"/>
   </g>
 
-  <!-- ===== FOOD GROUPS FLOATING BUBBLES ===== -->
-  <!-- Green bubble - In natura -->
-  <g transform="translate(600 100)">
-    <circle cx="0" cy="0" r="52" fill="#4A7C59" opacity="0.12"/>
-    <circle cx="0" cy="0" r="42" fill="#4A7C59" opacity="0.2"/>
-    <!-- mini fruits inside -->
-    <circle cx="-12" cy="-10" r="8" fill="#e53935" opacity="0.7"/>
-    <circle cx="8" cy="-8" r="7" fill="#f57c00" opacity="0.7"/>
-    <circle cx="-5" cy="8" r="9" fill="#7CB98A" opacity="0.7"/>
-    <circle cx="12" cy="10" r="6" fill="#E8C94A" opacity="0.7"/>
-    <text x="0" y="36" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#2d5a3a" font-weight="600">In natura</text>
+  <!-- ===== FOOD GROUP BUBBLES (right side) ===== -->
+  <!-- Green - In natura -->
+  <g transform="translate(400 100)">
+    <circle cx="0" cy="0" r="36" fill="#4A7C59" opacity="0.12"/>
+    <circle cx="0" cy="0" r="28" fill="#4A7C59" opacity="0.18"/>
+    <circle cx="-8" cy="-6" r="6" fill="#e53935" opacity="0.7"/>
+    <circle cx="6" cy="-4" r="5" fill="#f57c00" opacity="0.7"/>
+    <circle cx="-3" cy="7" r="7" fill="#7CB98A" opacity="0.7"/>
+    <circle cx="10" cy="8" r="5" fill="#E8C94A" opacity="0.7"/>
+    <text x="0" y="28" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="#2d5a3a" font-weight="700">IN NATURA</text>
   </g>
 
-  <!-- Yellow bubble - Processados -->
-  <g transform="translate(650 230)">
-    <circle cx="0" cy="0" r="38" fill="#D4A54A" opacity="0.12"/>
-    <circle cx="0" cy="0" r="30" fill="#D4A54A" opacity="0.2"/>
-    <rect x="-10" y="-8" width="20" height="14" rx="3" fill="#D4A54A" opacity="0.5"/>
-    <circle cx="0" cy="-2" r="6" fill="#E8C94A" opacity="0.5"/>
-    <text x="0" y="24" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="#8B5E3C" font-weight="600">Processados</text>
+  <!-- Yellow - Processados -->
+  <g transform="translate(420 210)">
+    <circle cx="0" cy="0" r="28" fill="#D4A54A" opacity="0.12"/>
+    <circle cx="0" cy="0" r="22" fill="#D4A54A" opacity="0.18"/>
+    <rect x="-8" y="-6" width="16" height="10" rx="3" fill="#D4A54A" opacity="0.5"/>
+    <text x="0" y="18" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#8B5E3C" font-weight="600">POUCO</text>
   </g>
 
-  <!-- Red bubble - Ultra -->
-  <g transform="translate(620 340)">
-    <circle cx="0" cy="0" r="32" fill="#E87461" opacity="0.12"/>
-    <circle cx="0" cy="0" r="24" fill="#E87461" opacity="0.15"/>
-    <line x1="-8" y1="-8" x2="8" y2="8" stroke="#E87461" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
-    <line x1="8" y1="-8" x2="-8" y2="8" stroke="#E87461" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
-    <text x="0" y="20" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="#b8483a" font-weight="600">Evitar</text>
+  <!-- Red - Ultraprocessados -->
+  <g transform="translate(405 310)">
+    <circle cx="0" cy="0" r="24" fill="#E87461" opacity="0.12"/>
+    <circle cx="0" cy="0" r="18" fill="#E87461" opacity="0.15"/>
+    <line x1="-6" y1="-6" x2="6" y2="6" stroke="#E87461" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <line x1="6" y1="-6" x2="-6" y2="6" stroke="#E87461" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <text x="0" y="16" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#b8483a" font-weight="600">EVITAR</text>
   </g>
 
-  <!-- ===== CHILDREN (left side, sitting in semicircle) ===== -->
-
+  <!-- ===== CHILDREN (bottom) ===== -->
   <!-- child 1 -->
-  <g transform="translate(120 370)">
-    <ellipse cx="0" cy="30" rx="12" ry="4" fill="#000" opacity="0.04"/>
-    <rect x="-10" y="8" width="20" height="22" rx="5" fill="#5B9BD5"/>
-    <circle cx="0" cy="-6" r="14" fill="#6d4a2a"/>
-    <path d="M-14 -10 Q0 -26 14 -10" fill="#2d1a0a"/>
-    <circle cx="-5" cy="-8" r="1.8" fill="#f5f0e6"/>
-    <circle cx="5" cy="-8" r="1.8" fill="#f5f0e6"/>
-    <path d="M-3 -1 Q0 2 3 -1" stroke="#f5f0e6" stroke-width="1" fill="none"/>
+  <g transform="translate(100 490)">
+    <rect x="-11" y="6" width="22" height="24" rx="5" fill="#5B9BD5"/>
+    <circle cx="0" cy="-8" r="15" fill="#6d4a2a"/>
+    <path d="M-15 -12 Q0 -28 15 -12" fill="#2d1a0a"/>
+    <circle cx="-5" cy="-10" r="2" fill="#f5f0e6"/>
+    <circle cx="5" cy="-10" r="2" fill="#f5f0e6"/>
+    <path d="M-4 -2 Q0 2 4 -2" stroke="#f5f0e6" stroke-width="1.2" fill="none"/>
     <!-- raised hand -->
-    <path d="M12 8 L20 -5" stroke="#6d4a2a" stroke-width="5" stroke-linecap="round"/>
-    <circle cx="20" cy="-8" r="4" fill="#6d4a2a"/>
+    <path d="M13 6 L22 -8" stroke="#6d4a2a" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="22" cy="-11" r="4.5" fill="#6d4a2a"/>
   </g>
 
   <!-- child 2 -->
-  <g transform="translate(195 385)">
-    <ellipse cx="0" cy="26" rx="11" ry="3.5" fill="#000" opacity="0.04"/>
-    <rect x="-9" y="6" width="18" height="20" rx="5" fill="#E87461"/>
-    <circle cx="0" cy="-7" r="13" fill="#c8905d"/>
-    <path d="M-12 -12 Q0 -24 12 -12 L13 -4 Q0 0 -13 -4Z" fill="#3d2010"/>
-    <circle cx="-4" cy="-9" r="1.5" fill="#3d2415"/>
-    <circle cx="4" cy="-9" r="1.5" fill="#3d2415"/>
-    <path d="M-3 -2 Q0 1 3 -2" stroke="#3d2415" stroke-width="1" fill="none"/>
+  <g transform="translate(190 500)">
+    <rect x="-10" y="5" width="20" height="22" rx="5" fill="#E87461"/>
+    <circle cx="0" cy="-8" r="14" fill="#c8905d"/>
+    <path d="M-12 -14 Q0 -26 12 -14 L13 -6 Q0 -2 -13 -6Z" fill="#3d2010"/>
+    <circle cx="-4" cy="-10" r="1.8" fill="#3d2415"/>
+    <circle cx="4" cy="-10" r="1.8" fill="#3d2415"/>
+    <path d="M-3 -3 Q0 0 3 -3" stroke="#3d2415" stroke-width="1" fill="none"/>
   </g>
 
   <!-- child 3 -->
-  <g transform="translate(105 420)">
-    <ellipse cx="0" cy="24" rx="10" ry="3" fill="#000" opacity="0.04"/>
-    <rect x="-9" y="5" width="18" height="18" rx="4" fill="#E8C94A"/>
-    <circle cx="0" cy="-7" r="12" fill="#e0b090"/>
-    <path d="M-10 -14 Q0 -22 10 -14" fill="#D4A54A"/>
-    <circle cx="-4" cy="-8" r="1.5" fill="#3d2415"/>
-    <circle cx="4" cy="-8" r="1.5" fill="#3d2415"/>
-    <path d="M-3 -2 Q0 1 3 -2" stroke="#3d2415" stroke-width="1" fill="none"/>
+  <g transform="translate(290 495)">
+    <rect x="-10" y="5" width="20" height="22" rx="5" fill="#4A7C59"/>
+    <circle cx="0" cy="-8" r="14" fill="#e0b090"/>
+    <path d="M-12 -16 Q0 -26 12 -16" fill="#D4A54A"/>
+    <circle cx="-4" cy="-10" r="1.8" fill="#3d2415"/>
+    <circle cx="4" cy="-10" r="1.8" fill="#3d2415"/>
+    <path d="M-3 -3 Q0 0 3 -3" stroke="#3d2415" stroke-width="1" fill="none"/>
     <!-- raised hand -->
-    <path d="M-10 5 L-20 -6" stroke="#e0b090" stroke-width="4.5" stroke-linecap="round"/>
-    <circle cx="-20" cy="-9" r="3.5" fill="#e0b090"/>
+    <path d="M-12 5 L-22 -6" stroke="#e0b090" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-22" cy="-9" r="4" fill="#e0b090"/>
   </g>
 
   <!-- child 4 -->
-  <g transform="translate(185 435)">
-    <ellipse cx="0" cy="22" rx="10" ry="3" fill="#000" opacity="0.04"/>
-    <rect x="-8" y="4" width="16" height="18" rx="4" fill="#4A7C59"/>
-    <circle cx="0" cy="-8" r="11" fill="#8B5E3C"/>
-    <path d="M-10 -12 Q0 -22 10 -12" fill="#2d1a0a"/>
-    <circle cx="-4" cy="-9" r="1.5" fill="#f5f0e6"/>
-    <circle cx="4" cy="-9" r="1.5" fill="#f5f0e6"/>
-    <path d="M-2 -3 Q0 0 2 -3" stroke="#f5f0e6" stroke-width="1" fill="none"/>
+  <g transform="translate(380 505)">
+    <rect x="-9" y="4" width="18" height="20" rx="4" fill="#E8C94A"/>
+    <circle cx="0" cy="-8" r="13" fill="#8B5E3C"/>
+    <path d="M-11 -13 Q0 -24 11 -13" fill="#2d1a0a"/>
+    <circle cx="-4" cy="-10" r="1.8" fill="#f5f0e6"/>
+    <circle cx="4" cy="-10" r="1.8" fill="#f5f0e6"/>
+    <path d="M-3 -3 Q0 0 3 -3" stroke="#f5f0e6" stroke-width="1" fill="none"/>
   </g>
 
-  <!-- ===== DECORATIVE ELEMENTS ===== -->
-
-  <!-- floating food icons around the nutritionist -->
-  <!-- apple -->
-  <g transform="translate(180 120)" opacity="0.6">
-    <circle cx="0" cy="0" r="14" fill="#e53935"/>
-    <rect x="-1.5" y="-18" width="3" height="6" rx="1" fill="#5a3520"/>
-    <ellipse cx="4" cy="-14" rx="4" ry="2.5" fill="#4A7C59" transform="rotate(25 4 -14)"/>
+  <!-- small hearts -->
+  <g fill="#E87461" opacity="0.2">
+    <path d="M150 75 Q150 67 156 67 Q162 67 162 75 Q162 83 156 89 Q150 83 150 75Z"/>
+    <path d="M350 55 Q350 49 354 49 Q358 49 358 55 Q358 61 354 65 Q350 61 350 55Z"/>
   </g>
 
-  <!-- carrot -->
-  <g transform="translate(230 80)" opacity="0.5">
-    <path d="M-5 15 L0 -10 L5 15Z" fill="#f4903a"/>
-    <path d="M0 -10 Q-4 -18 -8 -22" stroke="#4A7C59" stroke-width="2" fill="none" stroke-linecap="round"/>
-    <path d="M0 -10 Q4 -18 8 -22" stroke="#4A7C59" stroke-width="2" fill="none" stroke-linecap="round"/>
-  </g>
-
-  <!-- broccoli -->
-  <g transform="translate(160 200)" opacity="0.45">
-    <rect x="-2" y="5" width="4" height="12" rx="1.5" fill="#4A7C59"/>
-    <circle cx="0" cy="0" r="10" fill="#4A7C59"/>
-    <circle cx="-7" cy="4" r="7" fill="#3d6a40"/>
-    <circle cx="7" cy="4" r="7" fill="#3d6a40"/>
-    <circle cx="-3" cy="-3" r="3" fill="#5a9a4a"/>
-    <circle cx="4" cy="-2" r="2.5" fill="#5a9a4a"/>
-  </g>
-
-  <!-- grain/wheat -->
-  <g transform="translate(700 420)" opacity="0.3">
-    <line x1="0" y1="30" x2="0" y2="-10" stroke="#D4A54A" stroke-width="2"/>
-    <ellipse cx="-5" cy="0" rx="4" ry="7" fill="#D4A54A" transform="rotate(-20 -5 0)"/>
-    <ellipse cx="5" cy="-5" rx="4" ry="7" fill="#D4A54A" transform="rotate(20 5 -5)"/>
-    <ellipse cx="-5" cy="-12" rx="4" ry="7" fill="#D4A54A" transform="rotate(-20 -5 -12)"/>
-  </g>
-
-  <!-- small hearts (love for food education) -->
-  <g fill="#E87461" opacity="0.25">
-    <path d="M280 140 Q280 132 286 132 Q292 132 292 140 Q292 148 286 154 Q280 148 280 140Z"/>
-    <path d="M500 90 Q500 84 504 84 Q508 84 508 90 Q508 96 504 100 Q500 96 500 90Z"/>
-  </g>
-
-  <!-- sparkle stars -->
-  <g fill="#E8C94A" opacity="0.35">
-    <path d="M140 160 L142 166 L148 168 L142 170 L140 176 L138 170 L132 168 L138 166Z"/>
-    <path d="M680 160 L681 164 L685 165 L681 166 L680 170 L679 166 L675 165 L679 164Z"/>
-    <path d="M300 60 L301 64 L305 65 L301 66 L300 70 L299 66 L295 65 L299 64Z"/>
-  </g>
-
-  <!-- bottom text label -->
-  <g transform="translate(400 495)">
-    <rect x="-90" y="-12" width="180" height="24" rx="12" fill="#4A7C59" opacity="0.1"/>
-    <text x="0" y="4" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" fill="#2d5a3a" font-weight="600" letter-spacing="0.05em">5 MOMENTOS PEDAGOGICOS</text>
+  <!-- bottom label -->
+  <g transform="translate(240 570)">
+    <rect x="-100" y="-13" width="200" height="26" rx="13" fill="#4A7C59" opacity="0.1"/>
+    <text x="0" y="4" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" fill="#2d5a3a" font-weight="600" letter-spacing="0.06em">5 MOMENTOS PEDAGOGICOS</text>
   </g>
 </svg>

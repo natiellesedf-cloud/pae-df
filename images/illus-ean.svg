@@ -6,55 +6,118 @@
     </linearGradient>
   </defs>
   <rect width="800" height="520" fill="url(#bg-ean)"/>
-  <!-- traffic light post -->
-  <rect x="380" y="60" width="40" height="400" rx="10" fill="#4a4a4a"/>
-  <rect x="395" y="420" width="10" height="60" fill="#4a4a4a"/>
-  <!-- GREEN section -->
-  <g transform="translate(250 80)">
-    <rect x="0" y="0" width="300" height="120" rx="12" fill="#4A7C59" opacity="0.15"/>
-    <rect x="0" y="0" width="6" height="120" rx="3" fill="#4A7C59"/>
-    <circle cx="40" cy="60" r="30" fill="#4A7C59"/>
-    <text x="40" y="65" text-anchor="middle" font-family="Inter,sans-serif" font-size="28" fill="white" font-weight="700">V</text>
-    <text x="90" y="40" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#2d5a3a">IN NATURA E MINIMAMENTE PROCESSADOS</text>
-    <text x="90" y="58" font-family="Inter,sans-serif" font-size="11" fill="#4A7C59">Base da alimentacao escolar (85%+)</text>
-    <!-- food icons -->
-    <circle cx="100" cy="85" r="10" fill="#e44" opacity="0.8"/>
-    <circle cx="125" cy="85" r="8" fill="#f90" opacity="0.8"/>
-    <ellipse cx="150" cy="85" rx="12" ry="8" fill="#4A7C59" opacity="0.6"/>
-    <circle cx="178" cy="85" r="9" fill="#E8C94A" opacity="0.8"/>
-    <ellipse cx="205" cy="85" rx="8" ry="11" fill="#D4A54A" opacity="0.7"/>
-    <text x="100" y="110" font-family="Inter,sans-serif" font-size="9" fill="#4A7C59">Frutas  Legumes  Verduras  Ovos  Graos</text>
+
+  <!-- semaforo corpo -->
+  <rect x="60" y="30" width="680" height="460" rx="24" fill="#3a3a3a"/>
+  <rect x="70" y="40" width="660" height="440" rx="18" fill="#4a4a4a"/>
+
+  <!-- ========== VERDE - IN NATURA ========== -->
+  <g>
+    <!-- luz verde -->
+    <circle cx="140" cy="120" r="55" fill="#2d5a3a"/>
+    <circle cx="140" cy="120" r="45" fill="#4A7C59"/>
+    <circle cx="140" cy="120" r="38" fill="#7CB98A" opacity="0.6"/>
+    <!-- check -->
+    <path d="M120 120 L133 133 L160 106" stroke="white" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- texto e alimentos -->
+    <text x="220" y="80" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="#7CB98A">IN NATURA E MINIMAMENTE PROCESSADOS</text>
+    <text x="220" y="100" font-family="Inter,sans-serif" font-size="12" fill="#aaa">Base da alimentacao escolar — minimo 85%</text>
+
+    <!-- alimentos coloridos -->
+    <circle cx="230" cy="135" r="12" fill="#e53935"/>
+    <text x="230" y="139" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="white">Ma</text>
+
+    <circle cx="260" cy="135" r="12" fill="#f57c00"/>
+    <text x="260" y="139" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="white">Lar</text>
+
+    <circle cx="290" cy="135" r="12" fill="#4A7C59"/>
+    <text x="290" y="139" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="white">Alf</text>
+
+    <circle cx="320" cy="135" r="12" fill="#E8C94A"/>
+    <text x="320" y="139" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="white">Mil</text>
+
+    <circle cx="350" cy="135" r="12" fill="#8B5E3C"/>
+    <text x="350" y="139" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="white">Fej</text>
+
+    <circle cx="380" cy="135" r="12" fill="#D4A54A"/>
+    <text x="380" y="139" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="white">Ovo</text>
+
+    <circle cx="410" cy="135" r="12" fill="#e57373"/>
+    <text x="410" y="139" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="white">Pxe</text>
+
+    <text x="220" y="165" font-family="Inter,sans-serif" font-size="10" fill="#7CB98A">Frutas, legumes, verduras, ovos, graos, carnes, leite</text>
   </g>
-  <!-- YELLOW section -->
-  <g transform="translate(250 220)">
-    <rect x="0" y="0" width="300" height="120" rx="12" fill="#D4A54A" opacity="0.15"/>
-    <rect x="0" y="0" width="6" height="120" rx="3" fill="#D4A54A"/>
-    <circle cx="40" cy="60" r="30" fill="#D4A54A"/>
-    <text x="40" y="65" text-anchor="middle" font-family="Inter,sans-serif" font-size="28" fill="white" font-weight="700">A</text>
-    <text x="90" y="40" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#8B5E3C">PROCESSADOS - COM MODERACAO</text>
-    <text x="90" y="58" font-family="Inter,sans-serif" font-size="11" fill="#D4A54A">Usar com parcimonia no cardapio</text>
-    <rect x="100" y="75" width="14" height="18" rx="2" fill="#D4A54A" opacity="0.5"/>
-    <circle cx="130" cy="84" r="10" fill="#f5f0e6" stroke="#D4A54A" stroke-width="1.5"/>
-    <rect x="150" y="76" width="20" height="14" rx="3" fill="#D4A54A" opacity="0.4"/>
-    <text x="100" y="110" font-family="Inter,sans-serif" font-size="9" fill="#8B5E3C">Conservas  Queijos  Paes artesanais</text>
+
+  <!-- linha divisoria -->
+  <line x1="90" y1="190" x2="710" y2="190" stroke="#555" stroke-width="1"/>
+
+  <!-- ========== AMARELO - PROCESSADOS ========== -->
+  <g>
+    <!-- luz amarela -->
+    <circle cx="140" cy="270" r="55" fill="#8a6a20"/>
+    <circle cx="140" cy="270" r="45" fill="#D4A54A"/>
+    <circle cx="140" cy="270" r="38" fill="#E8C94A" opacity="0.5"/>
+    <!-- exclamacao -->
+    <rect x="135" y="248" width="10" height="26" rx="4" fill="white"/>
+    <circle cx="140" cy="286" r="5" fill="white"/>
+
+    <!-- texto -->
+    <text x="220" y="235" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="#E8C94A">PROCESSADOS — COM MODERACAO</text>
+    <text x="220" y="255" font-family="Inter,sans-serif" font-size="12" fill="#aaa">Usar com parcimonia no cardapio escolar</text>
+
+    <!-- alimentos -->
+    <rect x="220" y="272" width="32" height="24" rx="5" fill="#D4A54A" opacity="0.7"/>
+    <text x="236" y="288" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="white">Pao</text>
+
+    <rect x="260" y="272" width="38" height="24" rx="5" fill="#E8C94A" opacity="0.7"/>
+    <text x="279" y="288" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="#5a3520">Queijo</text>
+
+    <rect x="306" y="272" width="48" height="24" rx="5" fill="#c8905d" opacity="0.7"/>
+    <text x="330" y="288" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="white">Conserva</text>
+
+    <rect x="362" y="272" width="50" height="24" rx="5" fill="#a07040" opacity="0.7"/>
+    <text x="387" y="288" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="white">Sardinha</text>
+
+    <text x="220" y="315" font-family="Inter,sans-serif" font-size="10" fill="#D4A54A">Conservas, queijos, paes artesanais, sardinha em lata</text>
   </g>
-  <!-- RED section -->
-  <g transform="translate(250 360)">
-    <rect x="0" y="0" width="300" height="120" rx="12" fill="#E87461" opacity="0.15"/>
-    <rect x="0" y="0" width="6" height="120" rx="3" fill="#E87461"/>
-    <circle cx="40" cy="60" r="30" fill="#E87461"/>
-    <text x="40" y="65" text-anchor="middle" font-family="Inter,sans-serif" font-size="28" fill="white" font-weight="700">X</text>
-    <text x="90" y="40" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#b8483a">ULTRAPROCESSADOS - EVITAR</text>
-    <text x="90" y="58" font-family="Inter,sans-serif" font-size="11" fill="#E87461">Proibidos ou restritos no PNAE</text>
-    <!-- crossed out junk food -->
-    <g opacity="0.5">
-      <rect x="100" y="75" width="14" height="20" rx="2" fill="#E87461"/>
-      <line x1="98" y1="73" x2="116" y2="97" stroke="#b8483a" stroke-width="2"/>
-      <circle cx="135" cy="85" r="10" fill="#E87461"/>
-      <line x1="123" y1="73" x2="147" y2="97" stroke="#b8483a" stroke-width="2"/>
-      <rect x="155" y="78" width="18" height="12" rx="3" fill="#E87461"/>
-      <line x1="153" y1="73" x2="175" y2="97" stroke="#b8483a" stroke-width="2"/>
+
+  <!-- linha divisoria -->
+  <line x1="90" y1="340" x2="710" y2="340" stroke="#555" stroke-width="1"/>
+
+  <!-- ========== VERMELHO - ULTRAPROCESSADOS ========== -->
+  <g>
+    <!-- luz vermelha -->
+    <circle cx="140" cy="420" r="55" fill="#7a2a20"/>
+    <circle cx="140" cy="420" r="45" fill="#E87461"/>
+    <circle cx="140" cy="420" r="38" fill="#F5A08F" opacity="0.4"/>
+    <!-- X -->
+    <line x1="122" y1="402" x2="158" y2="438" stroke="white" stroke-width="5" stroke-linecap="round"/>
+    <line x1="158" y1="402" x2="122" y2="438" stroke="white" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- texto -->
+    <text x="220" y="385" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="#F5A08F">ULTRAPROCESSADOS — EVITAR</text>
+    <text x="220" y="405" font-family="Inter,sans-serif" font-size="12" fill="#aaa">Proibidos ou restritos pela Res. FNDE 4/2026</text>
+
+    <!-- alimentos riscados -->
+    <g>
+      <rect x="220" y="422" width="42" height="24" rx="5" fill="#E87461" opacity="0.4"/>
+      <text x="241" y="438" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#fdf0ee">Refrig.</text>
+      <line x1="218" y1="434" x2="264" y2="434" stroke="#F5A08F" stroke-width="2"/>
+
+      <rect x="272" y="422" width="50" height="24" rx="5" fill="#E87461" opacity="0.4"/>
+      <text x="297" y="438" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#fdf0ee">Salgadin.</text>
+      <line x1="270" y1="434" x2="324" y2="434" stroke="#F5A08F" stroke-width="2"/>
+
+      <rect x="330" y="422" width="48" height="24" rx="5" fill="#E87461" opacity="0.4"/>
+      <text x="354" y="438" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#fdf0ee">Biscoito</text>
+      <line x1="328" y1="434" x2="380" y2="434" stroke="#F5A08F" stroke-width="2"/>
+
+      <rect x="386" y="422" width="50" height="24" rx="5" fill="#E87461" opacity="0.4"/>
+      <text x="411" y="438" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#fdf0ee">Embutido</text>
+      <line x1="384" y1="434" x2="438" y2="434" stroke="#F5A08F" stroke-width="2"/>
     </g>
-    <text x="100" y="110" font-family="Inter,sans-serif" font-size="9" fill="#b8483a">Refrigerantes  Salgadinhos  Biscoitos recheados</text>
+
+    <text x="220" y="465" font-family="Inter,sans-serif" font-size="10" fill="#E87461">Refrigerantes, salgadinhos, biscoitos recheados, embutidos</text>
   </g>
 </svg>
